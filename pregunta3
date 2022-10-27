@@ -6,11 +6,19 @@ class Alumno():
     def __str__(self):
         return  "el alumno {} se ha creado con éxito".format(self.nombre)
 
-    if self.nota >= 5:
-        print ("Este alumno está aprobado")
-    else:
-        print ("este alumno esta suspenso")
-        
+    def calificacion(nota):
+        if self.nota >= 5:
+            print ("Este alumno está aprobado")
+        else:
+            print ("este alumno esta suspenso")
+
+from Alumno import*
+primer_alumno = Alumno("Rocío", 10)
+segundo_alumno = Alumno("Alejandra", 3)
+tercer_alumno = Alumno("Sergio", 8)
+
+
+
 
 
 
