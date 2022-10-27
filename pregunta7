@@ -34,7 +34,19 @@ M43 = float(input('Ingrese el valor M02: '))
 M44 = float(input('Ingrese el valor M02: '))
 
 
+def restar():
 
 
+def dividir():
 
+def eliminartermino():
+    for elemento in matriz:
+        if elemento in matriz:
+            print("el elemento está en la matriz")
 
+def determinartermino():
+    for elemento in  (len(matriz)):
+        if elemento in matriz:
+            print ("el elemento está en la matriz")
+        else:
+            print ("el elemento no esta en la matriz")    
