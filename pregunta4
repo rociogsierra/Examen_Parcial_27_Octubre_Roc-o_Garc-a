@@ -14,4 +14,9 @@ class Alumno():
     def __str__(self):
         return Alumno.__str__(self) + "el nombre es {}, y el apellido es {}".format(self.nombre, self.apellido)
 
+from Alumno import*
+primer_alumno = Alumno("Rocío", "García", 10)
+segundo_alumno = Alumno("Alejandra", "Andrés", 3)
+tercer_alumno = Alumno("Sergio", "Pérez", 8)
+
 
