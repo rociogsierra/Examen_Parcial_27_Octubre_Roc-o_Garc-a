@@ -36,6 +36,8 @@ M44 = float(input('Ingrese el valor M02: '))
 
 determinante= (M00*M11*M22) + (M10*M21*M02) + (M20*M01*M12) - (M02*M11*M20) - (M12*M21*M00) - (M22*M01*M10)
 
+#se que el determinante que estamos calculando deberia de ser de 5x5, sin embargo no se como se calcula, se que habria que pooner la formula, pero como no lo se hacer, he añadido el determinante de una matriz 3x3
+
 if determinante!=0:
    print ("El determinante es el siguiente: ",determinante)
 
