@@ -39,10 +39,15 @@ def restar():
 
 def dividir():
 
+
+
+
 def eliminartermino():
     for elemento in matriz:
-        if elemento in matriz:
-            print("el elemento está en la matriz")
+        if elemento in matriz: 
+            else:
+                break
+
 
 def determinartermino():
     for elemento in  (len(matriz)):
