@@ -12,6 +12,12 @@ class Alumno():
         else:
             print ("este alumno esta suspenso")
 
+    def __str__(self):
+                
+
+
+
+
 from Alumno import*
 primer_alumno = Alumno("Rocío", 10)
 segundo_alumno = Alumno("Alejandra", 3)

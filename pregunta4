@@ -1,0 +1,17 @@
+class Alumno():
+    def __init__(self, nombre, apellido, nota):
+        self.nombre = nombre
+        self.nota = nota
+        self.apellido = apellido
+
+
+    def calificacion(nota):
+        if self.nota >= 5:
+            print ("Este alumno está aprobado")
+        else:
+            print ("este alumno esta suspenso")
+
+    def __str__(self):
+        return Alumno.__str__(self) + "el nombre es {}, y el apellido es {}".format(self.nombre, self.apellido)
+
+
